@@ -1,0 +1,61 @@
+﻿<Window x:Class="WpfApp2.a"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp2"
+        mc:Ignorable="d"
+        Title="💊 고열 증상 대처 약" Height="800" Width="600" Background="LightPink">
+    <StackPanel Margin="40">
+        <TextBlock HorizontalAlignment="Center" FontWeight = "Bold" FontSize="20" Margin="0 0 0 10">
+            💉아세트아미노펜</TextBlock>
+        <TextBlock HorizontalAlignment="Center" FontSize="15">
+            일반정 – 타이레놀정</TextBlock>
+        <TextBlock HorizontalAlignment="Center" FontSize="15">
+            츄어블정 - 어린이타이레놀정, 어린이타이레놀현탄액(시럽)</TextBlock>
+        
+        <TextBlock HorizontalAlignment="Center" FontWeight = "Bold" FontSize="13" Margin="10">
+            용법</TextBlock>
+        <TextBlock HorizontalAlignment="Center" FontSize="11">
+            만 12세 이하 소아 – 1회 권장용량을 4~6시간마다 필요 시 복용</TextBlock>
+        <TextBlock HorizontalAlignment="Center" FontWeight = "Bold" FontSize="13" Margin="10">
+            주의사항</TextBlock>
+        <TextBlock HorizontalAlignment="Center" FontSize="11">
+            일반정은 만 2세 미만 소아에게 투여 시 의사 또는 약사와 상의</TextBlock>
+        
+        <Separator Background="HotPink" Margin="0 40 0 30 "/>
+        
+        <TextBlock HorizontalAlignment="Center" FontWeight = "Bold" FontSize="20" Margin="0 0 0 10">
+            💉이부프로펜</TextBlock>
+        <TextBlock HorizontalAlignment="Center" FontSize="15">
+            경구약 – 어린이부루펜(시럽제), 애드빌, 부루펜, 캐롤에프(정제)</TextBlock>
+
+        <TextBlock HorizontalAlignment="Center" FontWeight = "Bold" FontSize="13" Margin="10">
+            용법</TextBlock>
+        <TextBlock HorizontalAlignment="Center" FontSize="11">
+            시럽제(소아) : 다음 1회 용량을 1일 3~4회 복용</TextBlock>
+        <TextBlock HorizontalAlignment="Center" FontSize="11">
+            11~14세: 200~250mg(10~13mL)</TextBlock>
+        <TextBlock HorizontalAlignment="Center" FontSize="11">
+            7~10세: 150~200mg(8~10mL)</TextBlock>
+        <TextBlock HorizontalAlignment="Center" FontSize="11">
+            3~6세: 100~150mg(5~8mL)</TextBlock>
+        <TextBlock HorizontalAlignment="Center" FontSize="11">
+            1~2세: 50~100mg(3~5 mL)</TextBlock>
+        <TextBlock HorizontalAlignment="Center" FontWeight = "Bold" FontSize="13" Margin="10">
+            주의사항</TextBlock>
+        <TextBlock HorizontalAlignment="Center" FontSize="11">
+            발열에 3일 이상 복용하지 않도록 한다.</TextBlock>
+
+        <Separator Background="HotPink" Margin="0 50 0 30 "/>
+
+        <TextBlock HorizontalAlignment="Center" FontWeight = "Bold" FontSize="20" Margin="0 0 0 10">
+            💉나프록센</TextBlock>
+        <TextBlock HorizontalAlignment="Center" FontSize="15">
+            단일제 – 에이스펜, 낙센, 아나프록스</TextBlock>
+        <TextBlock HorizontalAlignment="Center" FontWeight = "Bold" FontSize="13" Margin="10">
+            주의사항</TextBlock>
+        <TextBlock HorizontalAlignment="Center" FontSize="11">
+            2세 이하의 소아에 대한 안전성은 확립되어 있지 않으므로 투여하지 않는 것이 바람직하다.</TextBlock>
+    </StackPanel>
+</Window>

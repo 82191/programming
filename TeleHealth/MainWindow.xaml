@@ -1,0 +1,30 @@
+﻿<Window x:Class="WpfApp2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp2"
+        mc:Ignorable="d"
+        Title="💊 TeleHealth 💊" Height="400" Width="300" Background="Pink">
+    <StackPanel Margin="20">
+        <TextBlock HorizontalAlignment="Center" FontWeight = "Bold">증상을 체크해주세요.</TextBlock>
+        <Separator Background="HotPink" Margin="0 10 0 5 "/>
+        <Button x:Name="a" Margin="10 10 5 0" 
+              Padding="5" Width="100" Background="Honeydew" Click="a_Click">고열</Button>
+        <Button x:Name="b" Margin="10 10 5 0" 
+              Padding="5" Width="100" Background="Honeydew" Click="b_Click">두통</Button>
+        <Button x:Name="c" Margin="10 10 5 0" 
+              Padding="5" Width="100" Background="Honeydew" Click="c_Click">복통</Button>
+        <Button x:Name="d" Margin="10 10 5 0" 
+              Padding="5" Width="100" Background="Honeydew" Click="d_Click">콧물</Button>
+        <Button x:Name="e" Margin="10 10 5 0" 
+              Padding="5" Width="100" Background="Honeydew" Click="e_Click">염증</Button>
+        <Button x:Name="f" Margin="10 10 5 0" 
+              Padding="5" Width="100" Background="Honeydew" Click="f_Click">소화불량</Button>
+        <Separator Background="HotPink" Margin="0 15 0 5"/>
+
+        <Button x:Name="btnExit" Margin="10 10 5 0" 
+              Padding="5" Width="80" 
+              Click="btnExit_Click">❤️끝내기❤️</Button>
+    </StackPanel>
+</Window>

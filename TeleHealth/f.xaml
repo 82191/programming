@@ -1,0 +1,54 @@
+﻿<Window x:Class="WpfApp2.f"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp2"
+        mc:Ignorable="d"
+        Title="💊 소화불량 증상 대처 약" Height="600" Width="600" Background="LightPink">
+    <StackPanel Margin="40">
+        <TextBlock HorizontalAlignment="Center" FontWeight = "Bold" FontSize="20" Margin="0 0 0 10">
+            💉소화효소제</TextBlock>
+        <TextBlock HorizontalAlignment="Center" FontSize="15">
+            판크레아틴, 브로멜라인, 판푸로신</TextBlock>
+
+        <TextBlock HorizontalAlignment="Center" FontWeight = "Bold" FontSize="13" Margin="10">
+            용법</TextBlock>
+        <TextBlock HorizontalAlignment="Center" FontSize="11">
+            제품과 증상에 따라 복용량과 복용 횟수에 차이가 있으며,</TextBlock>
+        <TextBlock HorizontalAlignment="Center" FontSize="11">
+            일반적으로 하루 3~4회 복용한다. 주로 식후에 복용하는 경우가 많다.</TextBlock>
+        <TextBlock HorizontalAlignment="Center" FontWeight = "Bold" FontSize="13" Margin="10">
+            주의사항</TextBlock>
+        <TextBlock HorizontalAlignment="Center" FontSize="11">
+            파인애플, 셀러리, 파파야에 알레르기가 있는 사람이</TextBlock>
+        <TextBlock HorizontalAlignment="Center" FontSize="11">
+            브로멜라인이 포함된 소화효소제를 복용할 경우 알레르기 반응이 나타날 수 있다.</TextBlock>
+
+        <Separator Background="HotPink" Margin="0 40 0 30 "/>
+
+        <TextBlock HorizontalAlignment="Center" FontWeight = "Bold" FontSize="20" Margin="0 0 0 10">
+            💉에스오메프라졸</TextBlock>
+        <TextBlock HorizontalAlignment="Center" FontSize="15">
+            경구약 – 오스템에스오메프라졸정20밀리그램, 넥시움과립</TextBlock>
+        <TextBlock HorizontalAlignment="Center" FontSize="15">
+            주사제</TextBlock>
+
+        <TextBlock HorizontalAlignment="Center" FontWeight = "Bold" FontSize="13" Margin="10">
+            용법</TextBlock>
+        <TextBlock HorizontalAlignment="Center" FontSize="11">
+            흡입액의 경우 소아는 살부타몰로서 2.5mg을 매 4~6시간 간격으로 필요시 흡입한다.</TextBlock>
+        <TextBlock HorizontalAlignment="Center" FontSize="11">
+            더 고용량의 투여가 필요한 일부 소아에 대해서는 5mg까지 투여할 수 있다.</TextBlock>
+        <TextBlock HorizontalAlignment="Center" FontSize="11">
+            경구제(서방캡슐)의 경우 소아(3~12세)는 살부타몰로서 1회 4mg을 1일 2회 투여한다.</TextBlock>
+        <TextBlock HorizontalAlignment="Center" FontWeight = "Bold" FontSize="13" Margin="10">
+            주의사항</TextBlock>
+        <TextBlock HorizontalAlignment="Center" FontSize="11">
+            에이즈 치료제인 아타자나비르 및 넬피나비르를 복용 중인 환자,</TextBlock>
+        <TextBlock HorizontalAlignment="Center" FontSize="11">
+            릴피비린 함유제제를 복용 중인 환자에게는 사용하지 않는다.</TextBlock>
+    </StackPanel>
+</Window>
+
+
