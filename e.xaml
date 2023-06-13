@@ -1,0 +1,50 @@
+﻿<Window x:Class="WpfApp2.f"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp2"
+        mc:Ignorable="d"
+        Title="💊 염증 증상 대처 약" Height="600" Width="600" Background="LightPink">
+    <StackPanel Margin="40">
+        <TextBlock HorizontalAlignment="Center" FontWeight = "Bold" FontSize="20" Margin="0 0 0 10">
+            💉이버멕틴</TextBlock>
+        <TextBlock HorizontalAlignment="Center" FontSize="15">
+            이버튼정3밀리그램</TextBlock>
+
+        <TextBlock HorizontalAlignment="Center" FontWeight = "Bold" FontSize="13" Margin="10">
+            용법</TextBlock>
+        <TextBlock HorizontalAlignment="Center" FontSize="11">
+            1일 1회 완두콩 크기만 한 양을 이마, 턱, 코, 양쪽 뺨에 바른다.</TextBlock>
+        <TextBlock HorizontalAlignment="Center" FontWeight = "Bold" FontSize="13" Margin="10">
+            주의사항</TextBlock>
+        <TextBlock HorizontalAlignment="Center" FontSize="11">
+            3개월 동안 사용 후에도 증상이 개선되지 않으면 사용을 중단하도록 한다.</TextBlock>
+
+        <Separator Background="HotPink" Margin="0 40 0 30 "/>
+
+        <TextBlock HorizontalAlignment="Center" FontWeight = "Bold" FontSize="20" Margin="0 0 0 10">
+            💉케토코나졸</TextBlock>
+        <TextBlock HorizontalAlignment="Center" FontSize="15">
+            액제 – 니조랄2%액®</TextBlock>
+        <TextBlock HorizontalAlignment="Center" FontSize="15">
+            연고제 - 코모졸크림®</TextBlock>
+
+        <TextBlock HorizontalAlignment="Center" FontWeight = "Bold" FontSize="13" Margin="10">
+            용법</TextBlock>
+        <TextBlock HorizontalAlignment="Center" FontSize="11">
+            액제 – 두피와 머리카락에 약을 바르고 일반 샴푸처럼 3~5분간 적용한 후에 헹굼.
+        </TextBlock>
+        <TextBlock HorizontalAlignment="Center" FontSize="11">
+            보통 1주에 2회, 2~4주간 적용</TextBlock>
+        <TextBlock HorizontalAlignment="Center" FontSize="11" Margin="5">
+            크림제 – 보통 1일 1회 환부에 직접 바름. 감염의 심한 정도에 따라 1일 2회.</TextBlock>
+        <TextBlock HorizontalAlignment="Center" FontWeight = "Bold" FontSize="13" Margin="10">
+            주의사항</TextBlock>
+        <TextBlock HorizontalAlignment="Center" FontSize="11">
+            상처 부위, 넓은 부위, 영아(표면적/ 체중의 비율 및 배내옷의 밀봉 효과)의 경우,</TextBlock>
+        <TextBlock HorizontalAlignment="Center" FontSize="11">
+            국소적으로 바르더라도 전신적인 효과가 나타날 수 있으므로 주의한다.</TextBlock>
+
+    </StackPanel>
+</Window>

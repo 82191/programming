@@ -1,0 +1,62 @@
+﻿<Window x:Class="WpfApp2.d"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp2"
+        mc:Ignorable="d"
+        Title="💊 콧물 증상 대처 약" Height="700" Width="600" Background="LightPink">
+    <StackPanel Margin="40">
+        <TextBlock HorizontalAlignment="Center" FontWeight = "Bold" FontSize="20" Margin="0 0 0 10">
+            💉레보세티리진</TextBlock>
+        <TextBlock HorizontalAlignment="Center" FontSize="15">
+            정제 – 영일레보세티정, 씨잘정5밀리그램</TextBlock>
+        <TextBlock HorizontalAlignment="Center" FontSize="15">
+            액제 – 씨잘액, 네오세틴액</TextBlock>
+        
+        <TextBlock HorizontalAlignment="Center" FontWeight = "Bold" FontSize="13" Margin="10">
+            용법</TextBlock>
+        <TextBlock HorizontalAlignment="Center" FontSize="12">
+            1. 정제</TextBlock>
+        <TextBlock HorizontalAlignment="Center" FontSize="11">
+            12세 이상의 어린이 : 성인용 복용량인 5-10mg을 1일 1-2회로 복용</TextBlock>
+        <TextBlock HorizontalAlignment="Center" FontSize="11">
+            6-11세 어린이 : 5mg (1정)을 1일 1-2회로 복용</TextBlock>
+        <TextBlock HorizontalAlignment="Center" FontSize="11">
+            2-5세 어린이 : 2.5mg (반 정제)을 1일 1-2회로 복용</TextBlock>
+        <TextBlock HorizontalAlignment="Center" FontSize="12" Margin="0 10 0 0">
+            2. 액제</TextBlock>
+        <TextBlock HorizontalAlignment="Center" FontSize="11">
+            일반적으로 레보세티리진은 정제 형태로 주로 사용되며,</TextBlock>
+        <TextBlock HorizontalAlignment="Center" FontSize="11">
+            액제 복용량은 환자의 연령, 체중, 증상 등에 따라 의사의 지시에 따라 결정된다.</TextBlock>
+
+        <TextBlock HorizontalAlignment="Center" FontWeight = "Bold" FontSize="13" Margin="10">
+            주의사항</TextBlock>
+        <TextBlock HorizontalAlignment="Center" FontSize="11">
+            1세 미만의 영아에 대한 사용경험이 적어 투여하지 않는다.</TextBlock>
+
+       
+        <Separator Background="HotPink" Margin="0 50 0 30 "/>
+
+        <TextBlock HorizontalAlignment="Center" FontWeight = "Bold" FontSize="20" Margin="0 0 0 10">
+            💉로라타딘</TextBlock>
+        <TextBlock HorizontalAlignment="Center" FontSize="15">
+            클라리틴시럽(액제)</TextBlock>
+
+        <TextBlock HorizontalAlignment="Center" FontWeight = "Bold" FontSize="13" Margin="10">
+            용법</TextBlock>
+        <TextBlock HorizontalAlignment="Center" FontSize="11">
+            12세 이상의 소아 – 1일 1회 10mg</TextBlock>
+        <TextBlock HorizontalAlignment="Center" FontSize="11" Margin="5">
+            2~12세 미만의 소아 : </TextBlock>
+        <TextBlock HorizontalAlignment="Center" FontSize="11">
+            1) 체중 30kg 이상 : 1일 1회 10mg</TextBlock>
+        <TextBlock HorizontalAlignment="Center" FontSize="11">
+            2) 체중 30kg 이하 : 1일 1회 5mg</TextBlock>
+        <TextBlock HorizontalAlignment="Center" FontWeight = "Bold" FontSize="13" Margin="10">
+            주의사항</TextBlock>
+        <TextBlock HorizontalAlignment="Center" FontSize="11">
+            액제는 2세 미만의 소아에게 투여하지 않는다.</TextBlock>
+    </StackPanel>
+</Window>
